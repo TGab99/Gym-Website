@@ -49,6 +49,18 @@ header .slider .slider-slide .content h3 {
     text-transform: uppercase;
 }
 
+.home-header {
+    background: url("../img/slide-01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    color: white;
+}
+
+.home-header .slider {
+    padding-top: 400px;
+}
+
 .memberships-header,
 .coaches-header, 
 .schedule-header, 
@@ -93,4 +105,81 @@ header .slider .slider-slide .content h3 {
 .contact-us-header .content p a {
     text-decoration: none;
     color: white;
+}
+
+footer {
+    background: #383838;
+    height: 300px;
+    color: white;
+}
+
+footer .boxes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .boxes-container .social-box h3 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+footer .boxes-container .social-box .social-media-icons ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+footer .boxes-container .social-box .social-media-icons ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer .boxes-container .social-box .content p {
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+footer .boxes-container .social-box .content p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .boxes-container .gallery-box {
+    padding-left: 100px;
+}
+
+footer .boxes-container .gallery-box p, 
+footer .boxes-container .newsletter-box #newsletter-text {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+footer .boxes-container .gallery-box .images .row-1,
+footer .boxes-container .gallery-box .images .row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+footer .boxes-container .gallery-box .images .row-1 img,
+footer .boxes-container .gallery-box .images .row-2 img {
+    width: 70px;
+}
+
+footer .boxes-container .gallery-box .images .row-1 img:hover, 
+footer .boxes-container .gallery-box .images .row-2 img:hover {
+    cursor: pointer;
+}
+
+footer .boxes-container .newsletter-box .content p {
+    top: 0;
 }
