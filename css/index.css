@@ -41,6 +41,10 @@ header nav ul li a {
     color: white;
 }
 
+header nav ul li hr {
+    border: 1px solid white;
+}
+
 header .slider .slider-slide img {
     width: 100%;
 }
@@ -50,16 +54,18 @@ header .slider .slider-slide .content h3 {
 }
 
 .home-header {
-    background: url("../img/slide-01.jpg");
-    background-size: cover;
     width: 100%;
     height: 1000px;
     color: white;
 }
 
-.home-header .slider {
-    padding-top: 400px;
+.home-header nav {
+    height: 10vh;
 }
+
+/*.home-header .slider {
+    padding-top: 10px;
+}*/
 
 .memberships-header,
 .coaches-header, 
